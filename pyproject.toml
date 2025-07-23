@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "ds_template"
+version = "0.0.1"
+description = "this is a template repository for ds projects"
+authors = [
+  { name = "ozn-in" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.9.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["ds_template"]
+include = ["pyproject.toml", "ds_template/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["ds_template"]
+force-sort-within-sections = true
+
