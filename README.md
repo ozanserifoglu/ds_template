@@ -39,7 +39,7 @@ this is a template repository for ds projects
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── ds_template   <- Source code for use in this project.
+└── src   <- Source code for use in this project.
     │
     ├── __init__.py             <- Makes ds_template a Python module
     │
