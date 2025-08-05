@@ -4,11 +4,11 @@
 ├── configs             <- config files for logging or other setups
 │
 ├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   ├── raw            <- The original, immutable data dump.
-│   └── sample         <- Sample data for tests and demos.
+│   ├── external       <- Data from third party sources. Will not be pushed, should be local
+│   ├── interim        <- Intermediate data that has been transformed. Will not be pushed, should be local
+│   ├── processed      <- The final, canonical data sets for modeling. Will not be pushed, should be local
+│   ├── raw            <- The original, immutable data dump. Will not be pushed, should be local
+│   └── sample         <- Sample data for tests and demos. Should be pushed for easy access
 │
 ├── docs               <- A default mkdocs project; see www.mkdocs.org for details
 │
