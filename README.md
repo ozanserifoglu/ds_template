@@ -27,19 +27,26 @@
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
-└── src                <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes src a Python module
-    ├── config.py               <- Store useful variables and configuration
-    ├── dataset.py              <- Scripts to download or generate data
-    ├── features.py             <- Code to create features for modeling
-    ├── modeling                <- Top level modelling, could have several folders for different
-    │   │                          modelling practices
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
+├── src                <- Source code for use in this project. 
+│   │                     Could have simple files or folders depending on the need
+│   │
+│   │── dataset                 <- Top level folder for dataset related source code
+│   │── features                <- Top level folder for feature related source code
+│   │── modeling                <- Top level folder for modelling, could have several folders for different
+│   │   │                          modelling practices
+│   │   │── __init__.py 
+│   │   │── predict.py          <- Code to run model inference with trained models          
+│   │   └── train.py            <- Code to train models
+│   │
+│   │── utils                   <- Top level folder for utility/helper code
+│   │── visualization           <- Top level folder for viz code
+│   │
+│   │ 
+│   │── __init__.py             <- Makes src a Python module
+│   │── config.py               <- Store useful variables and configuration
+│   │── dataset.py              <- Scripts to download or generate data
+│   │── features.py             <- Code to create features for modeling
+│   └── plots.py                <- Code to create visualizations
 │  
 ├── tests              <- Regular tests
 │
